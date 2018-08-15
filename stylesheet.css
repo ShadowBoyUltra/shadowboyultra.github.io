@@ -154,7 +154,7 @@ b {
 }
 
 .Bfast {
-	  animation: blink 4s ease-in-out infinite;
+	  animation: blink 4s ease-out infinite;
 
 	}
 
