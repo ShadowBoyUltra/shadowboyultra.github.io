@@ -25,21 +25,21 @@ a {
 	}
 
 a:link {
-	color:#d2738a;
+	color:#555adb;
 	}
 
 a:visited {
-	color:#d2738a;
+	color:#474de5;
 	}
 
 a:hover {
-	color:#d2738a;
+	color:#787ded;
 	animation: wiredB2 1s ease-out infinite;
 
-	} 
+	}
 
 a:active {
-	color:#d2738a;
+	color:#888ded;
 	}
 
 
@@ -155,7 +155,6 @@ b {
 
 .Bfast {
 	  animation: blink 4s ease-in-out infinite;
-		color:#990000;
 
 	}
 
@@ -186,14 +185,14 @@ b {
 
  @keyframes wiredB {
   50% {
-	  color:#d2738a;
-	  text-shadow:#d2738a 1px 4px 5px;
+	  color:#6f84ce;
+	  text-shadow:#7773d1 1px 4px 5px;
 	  }
  }
 
 	 @keyframes wiredB2 {
 	  50% {
-		  color:#c1b492;
-		  text-shadow:#c1b492 1px 1px 6px;
+		  color:#67cbea;
+		  text-shadow:#53a1ba 1px 1px 6px;
 		  }
 	 }
