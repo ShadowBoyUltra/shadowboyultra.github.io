@@ -25,21 +25,21 @@ a {
 	}
 
 a:link {
-	color:#555adb;
+	color:#EC18C8;
 	}
 
 a:visited {
-	color:#474de5;
+	color:#EC18C8;
 	}
 
 a:hover {
-	color:#787ded;
+	color:#EC18C8;
 	animation: wiredB2 1s ease-out infinite;
 
 	}
 
 a:active {
-	color:#888ded;
+	color:#EC18C8;
 	}
 
 
@@ -154,7 +154,7 @@ b {
 }
 
 .Bfast {
-	  animation: blink 4s ease-out infinite;
+	  animation: blink 4s ease-in-out infinite;
 
 	}
 
@@ -185,14 +185,63 @@ b {
 
  @keyframes wiredB {
   50% {
-	  color:#6f84ce;
-	  text-shadow:#7773d1 1px 4px 5px;
+	  color:#F654DA;
+	  text-shadow:#B6299E 1px 4px 5px;
 	  }
  }
 
 	 @keyframes wiredB2 {
 	  50% {
-		  color:#67cbea;
-		  text-shadow:#53a1ba 1px 1px 6px;
+		  color:#F654DA;
+		  text-shadow:#B6299E 1px 1px 6px;
 		  }
 	 }
+
+	 h4{
+	   color:rgba(100, 50, 255, .8);
+	 }
+
+.rainbow {
+ /* Chrome, Safari, Opera */
+-webkit-animation: rainbow 4s infinite;
+
+/* Internet Explorer */
+-ms-animation: rainbow 4s infinite;
+
+/* Standar Syntax */
+animation: rainbow 4s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+0%{color: orange;}
+10%{color: purple;}
+20%{color: red;}
+40%{color: yellow;}
+60%{color: green;}
+100%{color: blue;}
+100%{color: orange;}
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+0%{color: orange;}
+10%{color: purple;}
+20%{color: red;}
+40%{color: yellow;}
+60%{color: green;}
+100%{color: blue;}
+100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+0%{color: orange;}
+10%{color: purple;}
+20%{color: red;}
+40%{color: yellow;}
+60%{color: green;}
+100%{color: blue;}
+100%{color: orange;}
+}
+
+ @font-face { font-family:feast1; src: url('feast-of-flesh-bb.regular.otf'); }
